@@ -14,7 +14,7 @@ public class Lesson3 {
         Random random = new Random();
         byte cont = 1;
         while (cont == 1) {
-            int number = random.nextInt(9);
+            int number = random.nextInt(10);
             System.out.println("Угадайте число от 0 до 9");
             System.out.println("У вас есть 3 попытки");
             System.out.println("Введите число");
